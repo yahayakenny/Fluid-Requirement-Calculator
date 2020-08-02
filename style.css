@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;  
+  }
+
+
+html, body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+body {
+    margin-top: 20px !important;
+    background-color: #1d1d1d !important;
+    color: white !important;
+    font-family: 'Montserrat';
+   
+  }
+
+ 
+
+.intro h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: palevioletred;
+  }
+
+.intro h2, h5{
+      width: 80%;
+  }
+
+  #total-fluid {
+    width: 80%;
+  }
+
+
+.dly-fluid {
+    padding: 20px;
+    margin-left: 15px !important;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+    background-color: #fff;
+    width: 70%;
+    border-radius: 10px;
+    
+}
+
+.dly-fluid > div {
+  flex: 1;
+  text-align: center;
+}
+
+
+.dly-fluid > div:first-of-type {
+border-right: 1px solid black;
+}
+
+.dly-fluid .twentyfour-hrly h4 {
+  font-size: 19px !important;
+  font-family: 'Montserrat';
+  color:palevioletred;
+  font-weight: bold;
+}
+
+.dly-fluid .eight-hrly h4 {
+  font-size: 19px !important;
+  font-family: 'Montserrat';
+  color:palevioletred;
+  font-weight: bold;
+}
+
+.dly {
+  color: #2ecc71;
+  font-family: 'Montserrat';
+}
+
+.total h4, h5, p {
+    font-family: 'Montserrat';
+}
+
+.hrly {
+  color: #2ecc71;
+  font-family: 'Montserrat';
+}
+
+label {
+    display: inline-block;
+    margin: 10px 0;
+    font-family: 'Montserrat' !important;
+  }
+
+select {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px !important;
+    font-family: 'Montserrat' !important;
+    color: palevioletred;
+    font-weight: bold;
+      
+  }
+
+select {
+    outline: none;
+}
+
+.weight input {
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    display: block;
+    outline: none;
+    font-family: 'Montserrat' !important;
+    color: palevioletred;
+    font-weight: bold;
+
+  }
+
+  .weight input:focus {
+    outline: none;
+
+  }
+
+
+  button {
+    margin-top: 15px !important;
+    padding: 10px;
+    width: 50%;
+    border-radius: 6px !important;
+    display: block; 
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    font-size: 18px !important;
+    font-family: 'Montserrat' !important;
+    font-weight: bolder !important;
+
+  }
+
+  button:focus {
+    outline: none
+  }
+
+ 
+  @media(max-width: 767px) {
+    .intro h2, h5{
+          width: 90%;
+      }
+      #total-fluid {
+          width: 90%;
+      } 
+
+  }
+
+  @media (min-width: 768px){
+      .container {
+        margin: 0 auto;
+        width: 50% !important;
+        display: block;
+        margin-top: 30px;
+  }}

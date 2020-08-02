@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Fluid Requirement calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+
+    <section>
+        <div class="container container-fluid">
+            <div class="row intro">
+                <div class="col-12">
+                    <h2>Dr Yahaya H.K's Fluid Requirement Calculator in a dehydrated child.</h2>
+                    <h5 class = "lead">Please note that the deficit was calculated using a 5% deficit for Mild Dehydration, 7.5% deficit for Moderate and 10% deficit for severe Dehydration. </h5><br>
+                </div>
+                <div class='dly-fluid' id ='dly-fluid'>
+                    <div class='twentyfour-hrly' id='twentyfour-hrly'>
+                        <h4 >Maintenance(mls)</h4>
+                        <p class='dly' id='dly'> O</p>
+                       
+                    </div>
+                    <div class='eight-hrly' id='eight-hrly'>
+                        <h4>Deficit(mls)</h4>
+                        <p class='hrly' id='hrly'>O</p>
+                    </div>
+                </div>
+                <div class="col-12 total">
+                    <br><br>
+                    <h4>Total Fluid Requirement</h4>
+                    <p id='total-fluid'>Total fluid....</p><br>
+                 <h5>Choose the level of dehydration:</h5>
+                 <form id='form'>
+                     <select id = "select">
+                         <option value = "mild" id="mild">Mild Dehydration</option>
+                         <option value = "moderate" id="moderate">Moderate Dehydration</option>
+                         <option value = "severe" id="severe">Severe Dehydration</option>
+                      </select>
+                        <div class = "weight">
+                         <label for="weight"
+                         > Body Weight(Kg):
+                         </label>
+                         <input type='number' id = 'weight' placeholder= 'Enter body weight'>
+                         <br>
+                          <button class="submit-btn" id="submit-btn">Submit</button>       
+                       </div>        
+                 </form> 
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+    
+    <script src="script.js"></script>
+</body>
+</html>
