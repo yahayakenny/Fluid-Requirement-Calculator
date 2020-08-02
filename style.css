@@ -147,8 +147,21 @@ select {
           width: 90%;
       }
       #total-fluid {
-          width: 90%;
+          width: 100%;
       } 
+      .dly-fluid .twentyfour-hrly h4 {
+        font-size: 13px !important;
+        font-family: 'Montserrat';
+        color:palevioletred;
+        font-weight: bold;
+      }
+      
+      .dly-fluid .eight-hrly h4 {
+        font-size: 13px !important;
+        font-family: 'Montserrat';
+        color:palevioletred;
+        font-weight: bold;
+      }
 
   }
 
