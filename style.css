@@ -90,12 +90,11 @@ label {
   }
 
 select {
-    width: 60%;
+    width: 65%;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px !important;
     font-family: 'Montserrat' !important;
-    color: palevioletred;
     font-weight: bold;
       
   }
@@ -106,7 +105,7 @@ select {
 
 .weight input {
     padding: 10px;
-    width: 60%;
+    width: 65%;
     border-radius: 10px;
     display: block;
     outline: none;
@@ -125,7 +124,7 @@ select {
   button {
     margin-top: 15px !important;
     padding: 10px;
-    width: 50%;
+    width: 65%;
     border-radius: 6px !important;
     display: block; 
     background-color: palevioletred;
