@@ -90,7 +90,7 @@ label {
   }
 
 select {
-    width: 50%;
+    width: 60%;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px !important;
@@ -106,7 +106,7 @@ select {
 
 .weight input {
     padding: 10px;
-    width: 50%;
+    width: 60%;
     border-radius: 10px;
     display: block;
     outline: none;
