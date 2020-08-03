@@ -9,22 +9,21 @@ html, body {
 }
 
 body {
-    margin-top: 20px !important;
-    background-color: #1d1d1d !important;
-    color: white !important;
-    font-family: 'Montserrat';
+  margin-top: 20px !important;
+  background-color: #1d1d1d !important;
+  color: white !important;
+  font-family: 'Montserrat';
    
-  }
+}
 
  
-
 .intro h2 {
     font-family: 'Montserrat';
     font-weight: bold;
     color: palevioletred;
-  }
+}
 
-.intro h2, h5{
+.intro h2, h6{
       width: 80%;
   }
 
@@ -89,6 +88,14 @@ label {
     font-family: 'Montserrat' !important;
   }
 
+#total-fluid {
+    width: 65% !important;
+  }
+
+.lead {
+    width: 65% !important;
+  }
+
 select {
     width: 65%;
     padding: 10px;
@@ -123,6 +130,7 @@ select {
 
   button {
     margin-top: 15px !important;
+    margin-bottom: 50px !important;
     padding: 10px;
     width: 65%;
     border-radius: 6px !important;
@@ -140,6 +148,19 @@ select {
     outline: none
   }
 
+  .disclaimer{
+    color:palevioletred;
+    font-weight: bold;
+
+  }
+
+  .disclaimer, .tool {
+    margin-left: 18px;
+    width: 65%;
+    font-family: 'Montserrat';
+  }
+
+  
  
   @media(max-width: 767px) {
     .intro h2, h5{
