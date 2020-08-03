@@ -23,7 +23,7 @@ body {
     color: palevioletred;
 }
 
-.intro h2, h6{
+.intro h2{
       width: 80%;
   }
 
@@ -73,7 +73,7 @@ border-right: 1px solid black;
   font-family: 'Montserrat';
 }
 
-.total h4, h5, p {
+.total h4, h6, p {
     font-family: 'Montserrat';
 }
 
@@ -89,15 +89,13 @@ label {
   }
 
 #total-fluid {
-    width: 65% !important;
+    width: 85% !important;
   }
 
-.lead {
-    width: 65% !important;
-  }
+
 
 select {
-    width: 65%;
+    width: 80%;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px !important;
@@ -112,7 +110,7 @@ select {
 
 .weight input {
     padding: 10px;
-    width: 65%;
+    width: 80%;
     border-radius: 10px;
     display: block;
     outline: none;
@@ -132,7 +130,7 @@ select {
     margin-top: 15px !important;
     margin-bottom: 50px !important;
     padding: 10px;
-    width: 65%;
+    width: 80%;
     border-radius: 6px !important;
     display: block; 
     background-color: palevioletred;
@@ -156,15 +154,19 @@ select {
 
   .disclaimer, .tool {
     margin-left: 18px;
-    width: 65%;
+    width: 100%;
     font-family: 'Montserrat';
   }
 
   
  
   @media(max-width: 767px) {
-    .intro h2, h5{
-          width: 90%;
+    .intro h2{
+          width: 100%;
+      }
+
+      .lead {
+        width: 100%;
       }
       #total-fluid {
           width: 100%;
@@ -182,6 +184,11 @@ select {
         color:palevioletred;
         font-weight: bold;
       }
+      .disclaimer, .tool {
+        margin-left: 18px;
+        width: 75%;
+        font-family: 'Montserrat';
+      }
 
   }
 
@@ -191,4 +198,19 @@ select {
         width: 50% !important;
         display: block;
         margin-top: 30px;
-  }}
+
+
+  }
+
+
+  .dly-fluid {
+    padding: 20px;
+    margin-left: 15px !important;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+    background-color: #fff;
+    width: 85%;
+    border-radius: 10px;
+    
+}}
